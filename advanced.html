@@ -24,64 +24,76 @@
     </div>
     <div class="separator-line"></div>
 
-    <form action="/search" id="s1zaZb" method="GET" name="f"> 
-        <div class="input-one">
-            <div class="text-heading"> <span>Find pages with...</span></div>
-            <div class="input-field"></div>
-            <div class="todo-heading">To do this in the search box.</div>
-                    
-        </div>
-
-        <div class="input-one">
-            <div class="text"> all these words:</div>
-            <div class="input-field">
-                <input type="text">
-
+    <div class="form">
+        <form action="https://google.com/search" id="s1zaZb" method="GET" name="f"> 
+            <div class="find-pages">
+                <div class="text-heading"> Find pages with...</div>
             </div>
-            <div class="todo">
-                Type the important words: <span>tri-colour rat terrier</span>
+            <div class="HoCfzc">&nbsp; </div>
+            <div class="todo-heading">To do this in the search box.</div>         
+        
+            <div class="input-one">
+                <div class="prompt">
+                    <div class="text"> all these words:</div>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="as_q">
+                </div>
+                <div class="todo">
+                    Type the important words: <span>tri-colour rat terrier</span>
+                </div>
             </div>
-        </div>
 
-        <div class="input-one">
-            <div class="text"> this exact word or phrase:</div>
-            <div class="input-field">
-                <input type="text">
+            <div class="input-one">
+                <div class="prompt">
+                    <div class="text"> this exact word or phrase:</div>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="as_epq" >
+                </div>
+                <div class="todo">
+                    Put exact words in quotes: <span>"rat terrier"</span>
+                </div>
+            </div>
 
+            <div class="input-one">
+                <div class="prompt">
+                    <div class="text">any of these words:</div>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="todo">
+                    Type <span>OR</span> between all the words you want: <span>"miniature OR standard"</span>
+                </div>
             </div>
-            <div class="todo">
-                Put exact words in quotes: <span>"rat terrier"</span>
-            </div>
-        </div>
 
-        <div class="input-one">
-            <div class="text">any of these words:</div>
-            <div class="input-field">
-                <input type="text">
+            <div class="input-one">
+                <div class="prompt">
+                    <div class="text">none of these words:</div>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="todo">
+                    Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span>               
+                </div>
+            </div>
 
+            <div class="submit">
+                <div class="prompt"></div>
+                <div class="field">
+                    <div class="button" style="text-align:right">
+                        <input type="submit" name="tbs" value="Advanced Search">
+                    </div>
+                </div>
             </div>
-            <div class="todo">
-                Type <span>OR</span> between all the words you want: <span>"miniature OR standard"</span>
-            </div>
-        </div>
 
-        <div class="input-one">
-            <div class="text">none of these words:</div>
-            <div class="input-field">
-                <input type="text">
+            <div class="separator-line"></div>
 
-            </div>
-            <div class="todo">
-                Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span>
-            </div>
-        </div>
+        </form>
 
-        <div class="input-one">
-            <div class="text"></div>
-            <div class="button">
-                <input type="submit" value="Advanced Search">
-            </div>
-        </div>
-    </form>
+    </div>
+
 </body>
 </html>

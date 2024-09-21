@@ -139,19 +139,6 @@ a:hover{
     margin: auto;
 }
 
-/*.svg{
-    color: #9aa0a6;
-    display: inline-block;
-    fill: currentColor;
-    height: 24px;
-    line-height: 24px;
-    position: relative;
-    width: 24px;
-    top: 70px;
-    
-}
-*/
-
 
 .header-advanced {
     display: flex;
@@ -183,14 +170,59 @@ a:hover{
     border-bottom: solid 1px #d6d6d6;
 }
 
-.input-one .text-heading{
-    font-size: 16px;
+.form{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.find-pages{
+    float: left;
+    display: inline-block;
     min-width: 167px;
     width: 16%;
+    font-size: 16px;
+    min-height: 42px;
     font-weight: 500;
     color: #333;
+    vertical-align: middle;
+}
+ .text-heading{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
 
 }
+
+.HoCfzc{
+    float:left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+ .todo-heading{
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
 
 .input-one{
     display: flex;
@@ -198,36 +230,111 @@ a:hover{
     max-width: 1140px;
     min-width: 200px;
     width: 96%;
-    margin: 40px 2% 0 45px;
 }
 
-.input-one .text{
+.input-one .prompt{
+    float: left;
+    display: inline-block;
+    min-width: 183px;
+    width: 16%;
+    height: 42px;
+    color: #222;
     font-size: 13px;
-    width: 200px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.input-one .prompt .text{
+    font-size: 13px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .input-one .input-field{
+    float:left;
+    display: inline-block;
     min-width: 167px;
-    width:50%;
-
+    min-height: 41px;
+    vertical-align: middle;
+    width: 57%;
 }
 
-.input-one .input{
-    border: 1px solid;
+.input-one .input-field input{
     border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
-    padding: 1px 8px;
     width: 100%;
+    text-align: left;
 
 }
-
 
 .input-one .todo{
-    width: 32px;
-    min-width: 16px;
+    float: left;
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
     color: #555;
+    margin: 0 0 8px 1%;
     font-size: 11px;
-    padding-left: 30px;
+    padding-left: 15px;
+    vertical-align: middle;
+    position: relative;
 }
+
+span{
+    color: #666;
+    font-family: monospace;
+    font-size:11px;
+    white-space: pre;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin-bottom: 20px;
+
+}
+.submit .prompt{
+    float: left;
+    display: inline-block;
+    min-width: 183px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.submit .field{
+    float:left;
+    display: inline-block;
+    min-width: 168px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 52.3%;
+    padding-top: 5px;
+}
+.field .button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.button input{
+    background-color:#4d90fe;
+    color: #fff;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
 
