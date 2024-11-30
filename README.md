@@ -18,16 +18,17 @@ A simple clone of Google Search, Google Advanced Search, and Google Images, buil
     * The Image and Advanced Search pages link back to the main search page.
 * **Basic Layout:** Mimics the basic layout of Google Search pages.
 
-**Please note:** This is a purely static clone, and the search functionality does not redirect users to actual search results.
+**Please note:** This is *not* a static clone, and the search functionality will redirect users to actual search results.
 
 ## Running the Project
 
 1. Clone this repository or download the project files.
-2. Open `index.html` in your web browser.
+2. Open `index.html` in your web browser or run on Live Server.
 
 ## Using SCSS
 
 This project uses SCSS for styling. You'll need an SCSS compiler like Sass or Libsass to compile the `.scss` file into a regular `.css` file.
+However, the given file is already in `.css`; therefore, you can download and use it immediately. Otherwise, please check out the followings:
 
 1. Install an SCSS compiler.
 2. Compile `style.scss` into `style.css` using your chosen compiler.
